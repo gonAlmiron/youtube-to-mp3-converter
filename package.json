@@ -23,8 +23,12 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "morgan": "^1.10.0",
-    "youtube-mp3-converter": "^1.0.3"
+    "stream": "^0.0.2",
+    "util": "^0.12.5",
+    "youtube-mp3-converter": "^1.0.3",
+    "ytdl": "^1.4.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",

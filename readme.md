@@ -1,4 +1,6 @@
 CONVERTER YOUTUBE TO MP3
 LIBRERIA :
 
-youtube-mp3-converter
+ytdl
+stream
+util

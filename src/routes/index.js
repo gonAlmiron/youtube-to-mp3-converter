@@ -1,11 +1,9 @@
 import {Router} from 'express';
+import ConverterRouter from './converter.router'
 
 const router = Router();
 
-router.get('/', (req, res) => {
-    res.json({
-       message: "Petición desde el SERVIDOR -> ROUTER"
-   })
-})
+router.use('/converter', ConverterRouter)
+
 
 export default router;
